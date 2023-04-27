@@ -3,11 +3,17 @@
   "displayName": "Breakpoint Exporter",
   "description": "Export and import breakpoints",
   "version": "0.0.1",
+  "publisher": "IvanGrigorov",
   "engines": {
     "vscode": "^1.77.0"
   },
+  "keywords": [
+    "Breakpoints",
+    "Debug"
+  ],
   "categories": [
-    "Other"
+    "Other",
+    "Debuggers"
   ],
   "activationEvents": [
     "onStartupFinished:breakpoint-exporter.export",
@@ -47,5 +53,9 @@
     "mocha": "^10.1.0",
     "typescript": "^4.9.3",
     "@vscode/test-electron": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanGrigorov/vscode-breakpoint-exporter"
   }
 }
