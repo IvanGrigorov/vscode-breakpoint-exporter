@@ -2,7 +2,7 @@
   "name": "breakpoint-exporter",
   "displayName": "Breakpoint Exporter",
   "description": "Export and import breakpoints",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "IvanGrigorov",
   "engines": {
     "vscode": "^1.77.0"
